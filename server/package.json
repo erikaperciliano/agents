@@ -1,0 +1,35 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "dotenv -e .env -- node --loader ts-node/esm --no-warnings src/server.ts",
+    "dev": "dotenv -e .env -- node --loader ts-node/esm --no-warnings --watch src/server.ts",
+    "db:seed": "dotenv -e .env -- node --loader ts-node/esm --no-warnings --watch src/db/seed.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@biomejs/biome": "2.0.6",
+    "@types/node": "^24.0.12",
+    "cross-env": "^7.0.3",
+    "dotenv-cli": "^8.0.0",
+    "drizzle-kit": "^0.31.4",
+    "drizzle-seed": "^0.3.1",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3",
+    "ultracite": "5.0.32"
+  },
+  "dependencies": {
+    "@fastify/cors": "^11.0.1",
+    "drizzle-orm": "^0.44.2",
+    "fastify": "^5.4.0",
+    "fastify-type-provider-zod": "^5.0.2",
+    "postgres": "^3.4.7",
+    "zod": "^4.0.2"
+  }
+}
