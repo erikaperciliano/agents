@@ -59,8 +59,8 @@ A proposta deste projeto foi construir do zero uma aplicação moderna, robusta 
 
 ```bash
 # 1. Clone o repositório
-git clone https://github.com/seu-usuario/seu-repo.git
-cd seu-repo
+git clone https://github.com/erikaperciliano/agents.git 
+cd agents
 
 # 2. Suba o banco de dados
 docker-compose up -d
@@ -132,8 +132,8 @@ The goal of this project was to build from scratch a modern, robust, and scalabl
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-user/your-repo.git
-cd your-repo
+git clone https://github.com/erikaperciliano/agents.git
+cd agents
 
 # 2. Start the database
 docker-compose up -d
