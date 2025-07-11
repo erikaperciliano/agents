@@ -6,6 +6,8 @@
   "scripts": {
     "start": "dotenv -e .env -- node --loader ts-node/esm --no-warnings src/server.ts",
     "dev": "dotenv -e .env -- node --loader ts-node/esm --no-warnings --watch src/server.ts",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
     "db:seed": "dotenv -e .env -- node --loader ts-node/esm --no-warnings --watch src/db/seed.ts"
   },
   "keywords": [],

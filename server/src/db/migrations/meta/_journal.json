@@ -15,6 +15,13 @@
       "when": 1752192711492,
       "tag": "0001_quick_ultron",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1752261494984,
+      "tag": "0002_curved_newton_destine",
+      "breakpoints": true
     }
   ]
 }
